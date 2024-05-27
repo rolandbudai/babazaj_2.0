@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 10vh;
+    color: #ffffff;
+    font-size: 10vh;
+    text-align: center;
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+body{
+    background-color: #33CCCC;
+}
+
+.container{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#button1 {
+    background-image: url("gif/sound-wave.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover; 
+}
+
+#button2 {
+    background-image: url("gif/dryer.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover; 
+}
+
+#button3 {
+    background-image: url("gif/fan.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover; 
+}
+
+#button4 {
+    background-image: url("gif/wave.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover;
+}
+
+#button5 {
+    background-image: url("gif/blender.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover;
+}
+
+#button6 {
+    background-image: url("gif/shower.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover;
+}
+
+#button7 {
+    background-image: url("gif/vacuum.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover;
+}
+
+#button8 {
+    background-image: url("gif/waterfall.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover;
+}
+
+#button9 {
+    background-image: url("gif/fridge.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover;
+}
+
+#button10 {
+    background-image: url("gif/underwater.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover;
+}
+
+#button11 {
+    background-image: url("gif/rain.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover;
+}
+
+#button12 {
+    background-image: url("gif/train.png");
+    height: 27vh;
+    width: 27vh;
+    background-size: cover;
+}
