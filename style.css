@@ -12,20 +12,28 @@ header{
     font-family: "Caprasimo", serif;
     font-weight: 400;
     font-style: normal;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 12px 12px 14px #000000;
 }
 
 body{
-    background-color: #33CCCC;
+    /* Modern, átmenetes háttér */
+    background: linear-gradient(135deg, #33CCCC 0%, #11998e 100%);
+    min-height: 100vh;
+    transition: background 0.4s;
 }
 
 .container{
-    height: 90vh;
-    width: 100vw;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 90vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    gap: 2vw;
+    padding: 2vw;
+    box-sizing: border-box;
 }
 
 
